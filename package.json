@@ -1,0 +1,27 @@
+{
+  "name": "nCov-api",
+  "version": "1.0.0",
+  "description": "爬取nCov疫情信息api接口",
+  "main": "app.js",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "request": "^2.88.2",
+    "request-promise": "^4.2.5"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/z-xuanyu/nCov-api.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/z-xuanyu/nCov-api/issues"
+  },
+  "homepage": "https://github.com/z-xuanyu/nCov-api#readme"
+}
