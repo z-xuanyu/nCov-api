@@ -1,5 +1,5 @@
 {
-  "name": "nCov-api",
+  "name": "ncov-api",
   "version": "1.0.0",
   "description": "爬取nCov疫情信息api接口",
   "main": "app.js",
@@ -11,7 +11,8 @@
   },
   "devDependencies": {},
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "node app.js"
   },
   "repository": {
     "type": "git",

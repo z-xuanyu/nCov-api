@@ -1,3 +1,12 @@
+/*
+ * @Author: xuanyu
+ * @LastEditors: xuanyu
+ * @email: 969718197@qq.com
+ * @github: https://github.com/z-xuanyu
+ * @Date: 2022-04-20 14:18:35
+ * @LastEditTime: 2022-04-20 14:22:57
+ * @Description: Modify here please
+ */
 const express = require("express")
 const app = express()
 const rq = require('./request/index')
@@ -7,7 +16,7 @@ const cors = require('cors')
 rq()
 // 监听端口
 app.listen('3001',function(){
-    console.log("3001端口监听成功")
+    console.log("http://localhost:3001")
 })
 // 解决跨越问题
 app.use(cors())
