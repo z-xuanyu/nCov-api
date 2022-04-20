@@ -4,7 +4,7 @@
  * @email: 969718197@qq.com
  * @github: https://github.com/z-xuanyu
  * @Date: 2022-04-20 14:18:35
- * @LastEditTime: 2022-04-20 16:49:48
+ * @LastEditTime: 2022-04-20 17:22:47
  * @Description: Modify here please
  */
 const request = require('request-promise')
@@ -21,14 +21,14 @@ module.exports = function(){
         console.log("地图数据请求失败")
     })
     // 请求地图城市列表数据
-    request("http://api.tianapi.com/txapi/ncovcity/index?key=6fbc03872bd9063bc58ed7ba44477a09").then((res)=>{
-        fs.writeFile(path.resolve(__dirname, '../data/cities.json'),res,'utf8',(err)=>{
-            if(err) throw err;
-            console.log("地图城市列表数据保存成功")
-        })
-    }).catch(()=>{
-        console.log("地图城市列表数据请求失败")
-    })
+    // request("http://api.tianapi.com/txapi/ncovcity/index?key=6fbc03872bd9063bc58ed7ba44477a09").then((res)=>{
+    //     fs.writeFile(path.resolve(__dirname, '../data/cities.json'),res,'utf8',(err)=>{
+    //         if(err) throw err;
+    //         console.log("地图城市列表数据保存成功")
+    //     })
+    // }).catch(()=>{
+    //     console.log("地图城市列表数据请求失败")
+    // })
     // 获取疫情 整体统计信息
     request("http://49.232.173.220:3001/data/getStatisticsService").then((res)=>{
         fs.writeFile(path.resolve(__dirname, '../data/Statistics.json'),res,'utf8',(err)=>{

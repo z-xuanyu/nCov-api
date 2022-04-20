@@ -4,16 +4,16 @@
  * @email: 969718197@qq.com
  * @github: https://github.com/z-xuanyu
  * @Date: 2022-04-20 14:18:35
- * @LastEditTime: 2022-04-20 14:22:57
+ * @LastEditTime: 2022-04-20 17:31:31
  * @Description: Modify here please
  */
 const express = require("express")
 const app = express()
-const rq = require('./request/index')
+// const rq = require('./request/index')
 const path = require("path")
 const cors = require('cors')
 // 数据爬取
-rq()
+// rq()
 // 监听端口
 app.listen('3001',function(){
     console.log("http://localhost:3001")
