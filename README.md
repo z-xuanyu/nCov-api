@@ -37,5 +37,5 @@
 | 疫情百科知识信息  | GET | http://localhost:3001/WikiList
 | 疫情防护知识信息  | GET | http://localhost:3001/fanghu
 
-## 接口部署
-推荐宝塔部署 <a herf="https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=88399&highlight=node">查看教程</a>
+## 接口部署线上
+推荐宝塔部署 <a href="https://www.bt.cn/bbs/forum.php?mod=viewthread&tid=88399&highlight=node">查看教程</a>
